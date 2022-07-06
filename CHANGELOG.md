@@ -87,6 +87,7 @@
 - Added default timeout to Aqua stage ([#899](https://github.com/opendevstack/ods-jenkins-shared-library/issues/899))
 - Increase default timeout for rollout  ([#903](https://github.com/opendevstack/ods-jenkins-shared-library/issues/903))
 - Add retry for Openshift image build status ([#901](https://github.com/opendevstack/ods-jenkins-shared-library/issues/901))
+- Add Helm Support to Release Manager ([#866](https://github.com/opendevstack/ods-jenkins-shared-library/issues/866))
 
 ## [3.0] - 2020-08-11
 
