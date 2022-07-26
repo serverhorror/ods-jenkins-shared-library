@@ -91,7 +91,7 @@ class CopyImageStage extends Stage {
 
     protected String stageLabel() {
         return "${STAGE_NAME} " +
-            "Image: ${this.options.registry}/${this.options.repo}/${this.options.image}' " +
-            "(${context.componentId})"
+            "(${context.componentId}) " +
+            "${this.options.registry}/${this.options.repo}/${this.options.image}'"
     }
 }
