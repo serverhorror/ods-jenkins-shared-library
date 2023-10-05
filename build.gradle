@@ -70,7 +70,7 @@ dependencies {
     implementation "com.konghq:unirest-java:2.4.03:standalone"
     implementation "fr.opensagres.xdocreport:fr.opensagres.poi.xwpf.converter.core:2.0.2"
     implementation "fr.opensagres.xdocreport:fr.opensagres.poi.xwpf.converter.pdf:2.0.2"
-    implementation "net.lingala.zip4j:zip4j:2.1.1"
+    implementation "net.lingala.zip4j:zip4j:2.11.5"
     implementation "org.apache.ivy:ivy:2.2.0"
     implementation "org.apache.pdfbox:pdfbox:2.0.23"
     implementation "org.apache.poi:poi:4.0.1"
