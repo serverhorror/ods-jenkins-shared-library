@@ -61,7 +61,7 @@ dependencies {
     // See https://github.com/opendevstack/ods-jenkins-shared-library/issues/422.
     implementation "com.cloudbees:groovy-cps:1.29"
     implementation "org.codehaus.groovy:groovy-all:2.4.21"
-    implementation "org.jenkins-ci.main:jenkins-core:2.46.3"
+    implementation "org.jenkins-ci.main:jenkins-core:2.426"
     implementation group: 'org.jenkins-ci.plugins.workflow', name: 'workflow-api', version: '2.36', ext: 'jar'
     implementation group: 'org.jenkins-ci.plugins.workflow', name: 'workflow-step-api', version: '2.13', ext: 'jar'
     implementation group: 'org.jenkins-ci.plugins.workflow', name: 'workflow-cps', version: '2.41', ext: 'jar'
