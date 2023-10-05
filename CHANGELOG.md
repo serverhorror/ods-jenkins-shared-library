@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- add dependency updates for Gradle via dependabot
 
 ### Added
 
