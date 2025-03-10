@@ -36,6 +36,7 @@ class OpenShiftService {
 
     static void loginToExternalCluster(IPipelineSteps steps, String apiUrl, String apiToken) {
         steps.sh(
+            // BUG(serverhorro): this breaks if running in separate pod, not container in existing pod, separate pod!
             script: "oc login ${apiUrl} --token=${apiToken} >& /dev/null",
             label: "login to external cluster (${apiUrl})"
         )
