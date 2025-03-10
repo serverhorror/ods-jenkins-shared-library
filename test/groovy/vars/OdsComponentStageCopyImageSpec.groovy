@@ -56,7 +56,7 @@ class OdsComponentStageCopyImageSpec extends PipelineSpockTestBase {
         if (tagIntoTargetEnv && targetNamespace) {
             1 * openShiftService.importImageTagFromProject(targetNamespace, imageName, 'project-cd', imageTag, imageTag)
             1 * openShiftService.findOrCreateImageStream(targetNamespace, imageName)
-        } 
+        }
         if (!targetNamespace) {
             0 * openShiftService.importImageTagFromProject(targetNamespace, imageName, 'project-cd', imageTag, imageTag)
             0 * openShiftService.findOrCreateImageStream(targetNamespace, imageName)
@@ -73,7 +73,7 @@ class OdsComponentStageCopyImageSpec extends PipelineSpockTestBase {
         'example.com' || 'repo' || 'image'   || '1f3d1'  || null            || ''                          || null      || true              || true             || 'project-dev'
         'example.com' || 'repo' || 'image'   || '1f3d1'  || null            || ''                          || null      || true              || false            || 'project-dev'
         'example.com' || 'repo' || 'image'   || '1f3d1'  || false           || ''                          || false     || false             || true             || null
-        'example.com' || 'repo' || 'image'   || '1f3d1'  || false           || ''                          || false     || false             || false             || null
+        'example.com' || 'repo' || 'image'   || '1f3d1'  || false           || ''                          || false     || false             || false            || null
     }
 
 }
